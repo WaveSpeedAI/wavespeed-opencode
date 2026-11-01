@@ -1,0 +1,53 @@
+{
+  "name": "@wavespeed/opencode",
+  "version": "0.1.0",
+  "description": "WaveSpeed plugin for OpenCode: the hosted WaveSpeed MCP server and the WaveSpeed skill for AI image, video, audio and 3D generation",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "v1.ts",
+    "v2.ts",
+    "shared.ts",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "wavespeed",
+    "mcp",
+    "image-generation",
+    "video-generation",
+    "audio-generation",
+    "ai"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaveSpeedAI/wavespeed-opencode.git"
+  },
+  "homepage": "https://github.com/WaveSpeedAI/wavespeed-opencode#readme",
+  "author": {
+    "name": "WaveSpeedAI",
+    "email": "support@wavespeed.ai",
+    "url": "https://wavespeed.ai"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types --disable-warning=ExperimentalWarning test.mjs"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.19.5",
+    "@opencode/plugin": "^2.2.5",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
