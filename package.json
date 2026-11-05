@@ -1,6 +1,6 @@
 {
   "name": "@wavespeed/opencode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WaveSpeed plugin for OpenCode: the hosted WaveSpeed MCP server and the WaveSpeed skill for AI image, video, audio and 3D generation",
   "type": "module",
   "main": "index.ts",
